@@ -1,6 +1,10 @@
 # Picas y Fijas con Astro, Vue y Tailwind
 
-Este proyecto implementa el juego de **Picas y Fijas** en un entorno **Astro**, utilizando **Vue** para la lógica del juego y **Tailwind CSS** para los estilos.
+Este proyecto implementa el juego de **Picas y Fijas** en un entorno **Astro**, utilizando **Vue** para la lógica del juego y **Tailwind CSS** para los estilos. 
+
+![picas-fijas](./src/assets/picas-fijas-juego.webp)
+
+> !Si te resulta útil este proyecto, apóyalo con una ⭐! Tu apoyo nos motiva a crear más contenido y mejorar los recursos disponibles. ¡Gracias! :octocat:
 
 ## Instalación
 1. Clona este repositorio:  
