@@ -1,48 +1,35 @@
-# Astro Starter Kit: Basics
+# Picas y Fijas con Astro, Vue y Tailwind
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este proyecto implementa el juego de **Picas y Fijas** en un entorno **Astro**, utilizando **Vue** para la lógica del juego y **Tailwind CSS** para los estilos.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Instalación
+1. Clona este repositorio:  
+   ```bash
+   git clone https://github.com/JimcostDev/game-spades-fixed.git
+   ```
+2. Entra en la carpeta del proyecto:  
+   ```bash
+   cd picas-fijas
+   ```
+3. Instala las dependencias:  
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:  
+   ```bash
+   npm run dev
+   ```
+5. Abre [http://localhost:4321](http://localhost:4321) en tu navegador.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Estructura Principal
+- **src/pages/index.astro**  
+  Página principal con la estructura de la aplicación (header, footer y componente Vue).
+- **src/components/PicasFijas.vue**  
+  Componente Vue que contiene la lógica y la interfaz del juego.
+- **src/components/Header.astro** y **Footer.astro**  
+  Componentes de Astro para el encabezado y pie de página.
+- **src/styles/tailwind.css**  
+  Archivo de configuración de Tailwind.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+¡Disfruta jugando y aprendiendo con este proyecto!
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
