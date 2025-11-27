@@ -1,13 +1,8 @@
 ---
-import "../styles/global.css";
-import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import PicasFijas from "../components/PicasFijas.vue";
+import Layout from "@layouts/Layout.astro";
+import PicasFijas from "@components/PicasFijas.vue";
 ---
 
 <Layout>
-  <Header />
   <PicasFijas client:load />
-  <Footer />
 </Layout>

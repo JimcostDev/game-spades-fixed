@@ -1,11 +1,23 @@
 ---
 const year = new Date().getFullYear();
 ---
-<footer class="bg-blue-950 text-white py-6 mt-8 relative w-full">
-  <div class="container mx-auto px-4 text-center">
-    <p class="text-sm">
-      &copy; {year} <a href="https://jimcostdev.com" target="_blank" class="underline hover:text-gray-300">jimcostdev.com</a>. Todos los derechos reservados.
-    </p>
-  </div>
+<footer class="bg-gradient-to-r from-emerald-600 to-teal-600 text-white py-6 mt-auto">
+	<div class="container mx-auto px-4">
+		<div class="text-center space-y-2">
+			<p class="text-sm">
+				Hecho con <span class="text-emerald-200">💚</span> para jugar a distancia
+			</p>
+			<p class="text-xs text-emerald-100">
+				&copy; {year} 
+				<a 
+					href="https://jimcostdev.com" 
+					target="_blank" 
+					rel="noopener noreferrer"
+					class="underline hover:text-white transition-colors font-medium"
+				>
+					jimcostdev.com
+				</a>
+			</p>
+		</div>
+	</div>
 </footer>
-
